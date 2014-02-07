@@ -1,0 +1,17 @@
+development:
+  sessions:
+    default:
+      database: test-rails-mongoid-inheritance
+      hosts:
+        - localhost
+      options:
+        consistency: :strong
+        safe: true
+  options:
+    allow_dynamic_fields: false
+    identity_map_enabled: true
+    include_type_for_serialization: true
+    preload_models: true
+    protect_sensitive_fields: true
+    scope_overwrite_exception: true
+    use_activesupport_time_zone: true
